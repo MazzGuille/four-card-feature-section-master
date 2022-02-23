@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --shadow-: {1-6};
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: var(--Very-Light-Gray)
+}
+
+.main{
+    font-size: 1.5rem;
+    margin: 9.2rem 3.2rem 7.7rem;
+    height: 119.1rem;
+    width: 31.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.upperTitle{
+    font-size: x-large;
+}
+
+.text{
+    color: var(--Grayish-Blue);
+    margin-top: 2.4rem;
+    font-size: 1.5rem;
+}
+
+.supervisor{
+    margin-top: 7.7rem;
+    width: 31.1rem;
+    height: 22.3rem;
+    padding: 2.85rem;
+    border-top: .5rem solid var(--Cyan);
+    box-shadow: var(--shadow-2);
+    position: relative;
+    border-radius: .8rem;
+}
+
+.supervisor p{
+  color: var(--Grayish-Blue);
+  font-size: small;
+}
+
+.supervisor img{
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.teamBuilder{
+  margin-top: 3rem;
+  width: 31.1rem;
+  height: 22.3rem;
+  padding: 2.85rem;
+  border-top: .5rem solid var(--Red);
+  box-shadow: var(--shadow-2);
+  position: relative;
+  border-radius: .8rem;
+}
+
+.teamBuilder p{
+  color: var(--Grayish-Blue);
+  font-size: small;
+}
+
+.teamBuilder img{
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.karma{
+  margin-top: 3rem;
+  width: 31.1rem;
+  height: 22.3rem;
+  padding: 2.85rem;
+  border-top: .5rem solid var(--Orange);
+  box-shadow: var(--shadow-2);
+  position: relative;
+  border-radius: .8rem;
+}
+
+.karma p{
+  color: var(--Grayish-Blue);
+  font-size: small;
+}
+
+.karma img{
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 10%;
+}
+
+.calculator{
+  margin-top: 3rem;
+  width: 31.1rem;
+  height: 22.3rem;
+  padding: 2.85rem;
+  border-top: .5rem solid var(--Blue);
+  box-shadow: var(--shadow-2);
+  position: relative;
+  border-radius: .8rem;
+}
+
+.calculator p{
+  color: var(--Grayish-Blue);
+  font-size: small;
+}
+
+.calculator img{
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 10%;
+}
